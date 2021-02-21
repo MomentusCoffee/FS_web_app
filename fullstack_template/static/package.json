@@ -1,0 +1,23 @@
+{
+  "name": "FS_Template",
+  "version": "1.0.0",
+  "description": "A template for creating fullstack web app using python, npm, webpack,and react",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -- progress -d --config webpack.config.js --watch"
+  },
+  "presets": {
+    "@babel/preset-env",
+    "@babel/preset-react"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "webpack": "^5.23.0"
+  }
+}
